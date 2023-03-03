@@ -1,13 +1,14 @@
 import './App.css';
 import Header from './components/Header';
-import ImageCom from './components/Image';
+import Example from './components/Image';
+
 
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <ImageCom/>
+      <Example/>
     </div>
   );
 }

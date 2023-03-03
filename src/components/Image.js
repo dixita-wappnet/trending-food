@@ -1,11 +1,14 @@
+
 import React from 'react'
-import { Image } from '@mui/icons-material'
-function ImageCom() {
+import  food  from '../food.jpg'
+
+function Example() {
   return (
     <div>
-      <div><Image url='../../public/food.jpg' width="200"/></div>
+      <div className='object-fit-cover' style={{backgroundImage:`url(${food})`, height:"90vh", marginTop:"50px",filter:"blur(1px)"}}></div>
+      
     </div>
   )
 }
 
-export default ImageCom
+export default Example
