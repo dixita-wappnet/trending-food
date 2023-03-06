@@ -1,0 +1,30 @@
+.h1{
+    text-align: center;
+    color: rgba(229, 178, 12, 0.924);
+}
+
+.card{
+    background-image: url('../public/assets/food2.jpg');
+    height:250px;
+}
+.img{
+    border: 3px solid yellow;
+    border-radius: 50px;
+}
+.bg{
+    
+    margin-top: 113px; 
+    height:70px;
+    /* width: 275px; */
+    background-color: black; 
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+.price{
+padding-left: 110px;
+}

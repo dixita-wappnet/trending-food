@@ -1,15 +1,17 @@
 import React from 'react'
 // import { pages } from '../data/navbar'
 import AppBar from '@mui/material/AppBar';
-import { Button,Tab, Container, Tabs, Toolbar, Typography } from '@mui/material';
+import { Button,Tab,  Tabs, Toolbar, Typography } from '@mui/material';
 import Navbar from './Navbar'
+// import Items from './Items';
+
+
 function Header() {
     return (
-         
-         
+        
             <AppBar sx={{backgroundColor:'white'}}>
                 <Toolbar>
-                <Button variant='outlined' color='error'><b>LOGO</b></Button>
+                <Button variant='outlined' color='error' sx={{ml:3}}><b>LOGO</b></Button>
                 <Typography>
                     <Navbar/> 
                 </Typography>
@@ -17,8 +19,7 @@ function Header() {
                 </Toolbar>
             </AppBar>
            
-           
-        
+               
     );
 }
 
