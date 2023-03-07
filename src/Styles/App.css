@@ -1,10 +1,22 @@
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .App{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+} */
 .h1{
     text-align: center;
     color: rgba(229, 178, 12, 0.924);
 }
 
 .card{
-    background-image: url('../public/assets/food2.jpg');
+    background-image: url('../../public/assets/food2.jpg');
     height:250px;
 }
 .img{
@@ -27,4 +39,11 @@
 }
 .price{
 padding-left: 110px;
+}
+
+.inactive{
+    border-color: black;
+}
+.active{
+    border-color: red;
 }

@@ -3,31 +3,33 @@ export const pages =
   {
     id: 1,
     name: "HOME",
-    link: "/home"
+    path: "/"
   },
   {
     id: 2,
     name: "ABOUT",
-    link: "/about"
+    path: "/about",
+  
+    
   },
   {
     id: 3,
     name: "BECOME CHEF",
-    link: "/chef"
+    path: "/chef"
   },
   {
     id: 4,
     name: "BECOME DRIVER",
-    link: "/driver"
+    path: "/driver"
   },
   {
     id: 5,
     name: "LOGIN",
-    link: "/login"
+    path: "/login"
   },
   {
     id: 6,
     name: "SIGN UP",
-    link: "/signup"
+    path: "/signup"
   }
 ]

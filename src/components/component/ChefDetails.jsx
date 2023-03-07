@@ -1,18 +1,18 @@
 import React from 'react'
-import { Card, CardContent, Container, Typography } from '@mui/material'
-import { details } from '../data/details'
+import { Card, CardContent, Typography } from '@mui/material'
 import { Grid } from '@mui/material'
 import { Button } from '@mui/material'
 
 
-function Details() {
+function ChefDetails({chefs}) {
+    
     return (
 
         <Grid container style={{ justifyContent: "center" }}>
 
-            {details.map((detail) => {
+            {chefs.chef.map((detail) => {
                 return (
-                    <Card sx={{ width: "275px", mr:3, height: "250px" }} className='card'>
+                    <Card sx={{ width: "275px", mr:3, height: "250px" }} className='card' key={detail.id}>
                         <CardContent sx={{padding:"0px"}}>
                             <Typography sx={{ display: "flex",padding:"7px 7px" }}>
                                 <img src={detail.icon} alt="lol" height="50px" width="50px" className='img' />
@@ -35,4 +35,4 @@ function Details() {
     )
 }
 
-export default Details
+export default ChefDetails
